@@ -10,7 +10,7 @@ Sets ALSA to use the primary hardware card by default (/etc/asound.conf). Works 
 
 ### Service cleanup
 Disables non-essential services to free resources:
-bluetooth, hciuart, triggerhappy, apt-daily, and apt-daily-upgrade.
+bluetooth, hciuart, triggerhappy.
 
 ### CPU governor tuning
 Installs cpufrequtils and forces the CPU governor to performance mode for stable timing.
