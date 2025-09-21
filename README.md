@@ -24,6 +24,9 @@ Applies sysctl tuning for low-latency streaming, increasing TCP buffer sizes and
 ### Roon Bridge installation
 Downloads and installs the latest ARMv8 build of Roon Bridge from Roon Labs.
 
+### Antenna Bracket File
+A dxf file for laser cutting and bending an antenna bracket for use with a U.FL to SMA connector. Works seamlessly with popular aluminum Pi Zero 2W heat sink cases.
+
 ## Usage
 
 Clone or download this repository, then run the script as root.
