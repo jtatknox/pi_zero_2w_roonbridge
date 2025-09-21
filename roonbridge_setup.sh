@@ -16,8 +16,6 @@ echo "Disabling unnecessary services..."
 systemctl disable bluetooth.service
 systemctl disable hciuart.service
 systemctl disable triggerhappy.service
-systemctl disable apt-daily.service
-systemctl disable apt-daily-upgrade.service
 
 echo "Setting CPU governor to performance..."
 apt-get update
