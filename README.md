@@ -6,7 +6,7 @@ The script applies several system tweaks to improve network stability and reduce
 ## Features
 
 ### Audio device configuration
-Sets ALSA to use the primary hardware card by default (/etc/asound.conf).
+Sets ALSA to use the primary hardware card by default (/etc/asound.conf). Works with either an Apple USB-C dongle or a Hifime UT23 USB to SPDIF dongle. Other ALSA devices may work.
 
 ### Service cleanup
 Disables non-essential services to free resources:
